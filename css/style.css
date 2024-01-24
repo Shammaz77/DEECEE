@@ -1,0 +1,784 @@
+.banner-home-main{
+	position: relative;
+	min-height: 500px;
+}
+.object-banner{
+	width: 280px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.space-banner-inner{
+	padding: 80px 0px;
+	width: 100%;
+}
+.text-heading-one{
+	font-size: 19px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.text-heading-two{
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+.main-text-one{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 800 !important;
+}
+.sub-text-small{
+	color: #fff;
+	font-size: 15px;
+}
+.space-banner-inner .inner-banner-content{
+	width: 50%;
+}
+.sub-opt-txt{
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 25px;
+	padding-right: 80px;
+}
+.sub-opt-txt i{
+	color: #000;
+	padding: 7px;
+	border-radius: 50%;
+	margin-right: 9px;
+}
+.sub-options{
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.controller-bar.active{
+	background: #fff;
+	height: 2px;
+	width: 18px;
+	margin-right: 5px;
+}
+.controller-bars{
+	background: #33C7CA;
+	height: 2px;
+	margin-right: 5px;
+	width: 18px;
+}
+.banner-controller{
+	display: flex;
+}
+.banner-controller i{
+	font-size: 26px;
+	margin-right: 10px;
+}
+.space-banner-inner {
+	display: none;
+	/* Add your inner-banner-content styles here */
+}
+.space-banner-inner.active {
+	display: flex; /* Change display property to flex to show only the active banner */
+}
+/* client section  */
+.clients{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0px;
+	align-items: end;
+}
+.client-img{
+	width: 70%;
+}
+.left-client-box{
+	width: 30%;
+}
+.right-client-box{
+	width: 70%;
+}
+.client-main-heading{
+	font-size: 40px;
+}
+.views{
+	background: #E5FCF1;
+}
+.common-box{
+	height: 170px;
+	padding: 20px;
+	width: 23%;
+	border-radius: 20px;
+	position: relative;
+}
+.view-txt{
+	font-size: 18px;
+	font-weight: 500;
+}
+.plus-txt{
+	color: #33C7CA;
+	font-weight: 900;
+}
+.views-txt{
+	font-size: 14px;
+	color: #000 !important;
+	padding-left: 8px;
+	font-weight: 400;
+}
+.number-txt{
+	font-size: 40px;
+	font-weight: 800;
+	padding-top: 15px;
+}
+.boxes-clients{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.solve{
+	background: #FFF5F3;
+}
+.classes{
+	background: #FFF2DA;
+}
+.learners{
+	background: #E6F2FC;
+}
+.piece{
+	background: #7DF1B8;
+	width: 20px;
+	height: 150px;
+}
+.vector{
+	width: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.client-box-main{
+	padding-bottom: 80px;
+}
+.why-main{
+	width: 100%;
+	display: flex;
+	padding: 80px 0px 80px 0px;
+}
+.why-inner-left{
+	width: 40%;
+}
+.why-inner-right{
+	width: 60%;
+}
+.img-why{
+	width: 70%;
+}
+.why-main-text{
+	color: #fff;
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+.sub-why{
+	font-size: 17px;
+	color: #fff;
+	padding-bottom: 10px;
+	font-weight: 300;
+	line-height: 1.7;
+}
+.btn-read-more{
+	padding: 10px 25px;
+	border: 2px solid #FFDD1E;
+	background: #fff;
+	margin-left: 0px;
+	color: #fff;
+	margin-top: 25px;
+	background: transparent;
+}
+.main-text-join{
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 35px;
+}
+.join-section{
+	padding: 80px 0px 40px 0px;
+}
+.box-joint-left{
+	border-radius: 15px;
+	background: #FFF;
+	padding: 20px;
+	display: flex;
+	width: 70%;
+	margin-bottom: 50px;
+	box-shadow: 0px 5px 15px 0px rgba(175, 190, 223, 0.25);
+}
+.heading-join{
+	font-size: 16px;
+	font-weight: 700;
+}
+.heading-sub-join{
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 8px;
+}
+.vector-small{
+	width: 200px;
+	margin: 0px 25px;
+}
+.small-underline{
+	background: #33C7CA;
+	width: 40px;
+	height: 3px;
+	margin-bottom: 15px;
+}
+.box-joint-right{
+	border-radius: 15px;
+	background: #FFF;
+	padding: 20px;
+	display: flex;
+	margin-bottom: 50px;	
+	width: 70%;
+	margin-left: auto;
+	box-shadow: 0px 5px 15px 0px rgba(175, 190, 223, 0.25);
+}
+/* get app section  style  */
+.get-app{
+	background: linear-gradient(96deg, #1A94FF 1.04%, #33C7CA 96.78%);
+	padding: 90px 20px;
+}
+.screen{
+	width: 50%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: -90px;
+}
+.col-app-details{
+	width: 50%;
+}
+.app-screen-main{
+	width: 100%;
+	display: flex;
+}
+.right-screen{
+	position: relative;
+}
+.store-main{
+	width: 100%;
+	display: flex;
+}
+.store-icon{
+	width: 130px;
+	margin-right: 20px;
+}
+.sub-app-txt{
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+.get-txt{
+	font-size: 30px;
+	color: #fff;
+}
+/* message section  */
+.text-heading-message{
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+.txt-small-message{
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.7;
+	padding-bottom: 20px;
+}
+.txt-small-messages{
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.7;
+}
+.message{
+	padding: 70px 0px;
+}
+.message-founder-left{
+	width: 70%;
+}
+.message-founder-right{
+	width: 30%;
+}
+.founder-image{
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.message-main{
+	display: flex;
+}
+.message-founder-left .ri-instagram-line{
+	color: #000;
+	padding: 10px;
+	border-radius: 50%;
+	margin-right: 15px;
+	background: linear-gradient(143deg, #EBB12B 3.58%, #BF007E 112.36%);
+}
+.message-founder-left .ri-linkedin-fill{
+	color: #000;
+	padding: 10px;
+	border-radius: 50%;
+	background: linear-gradient(144deg, #1A94FF 14.04%, #0060B7 90.85%);
+}
+.row-btn{
+	display: flex;
+	align-items: center;
+	padding: 20px 0px;
+}
+.call-back-left{
+	width: 30%;
+}
+.call-back-right{
+	width: 65%;
+}
+.img-call{
+
+}
+/* call back page style  */
+.box-form{
+	box-shadow: 0px 15px 35px 0px rgba(175, 190, 223, 0.30);
+	padding: 40px 60px  50px 60px; 
+	border-radius: 15px;
+}
+.callback{
+	padding: 70px 0px;
+}
+.callback-inner-main{
+	display: flex;
+	justify-content: space-between;
+}
+.box-form form{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 25px;
+}
+.form-half{
+	width: 48%;
+	margin-bottom: 20px;
+}
+.box-form input{
+	width: 100%;
+	padding: 11px;
+	border-radius: 5px;
+	border: 1px solid #bcbdc093 !important;
+}
+.box-form select{
+	width: 100%;
+	padding: 11px;
+	border-radius: 5px;
+	border: 1px solid #bcbdc093 !important;
+}
+.form-full textarea{
+	width: 100%;
+	padding: 11px;
+	border-radius: 5px;
+	border: 1px solid #bcbdc093 !important;
+}
+.form-full {
+	width: 100%;
+}
+.btn-submit{
+	border: none !important;
+	padding: 15px 18px !important;
+	font-weight: 700;
+	font-size: 16px;
+	color: rgba(30, 30, 30, 0.80);
+	margin-bottom: -50px;
+	margin-top: 30px;
+	display: table;
+	margin-left: auto;
+}
+.top-main{
+	margin-bottom: -60px;
+}
+/* populer box  */
+.populer-box{
+	width: 23%;
+}
+.image-course{
+	border-radius: 20px;
+	margin-bottom: 15px;
+}
+.populer-courses-main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.course-details{
+	color: #596670;
+	font-weight: 600;
+	font-size: 17px;
+}
+.pop-txt{
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+
+.btn-control-popular-course{
+	display: flex;
+}
+.btn-control-popular-course i{
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 10px;
+	font-size: 24px;
+	border: 1px solid #000000;
+}
+.heading-btn{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 15px;
+}
+.populer-courses{
+	margin-bottom: 40px;
+}
+.btn-submit:hover{
+	background-color: #1A94FF;
+	color: #ffff;
+}
+.slider-testimonial{
+	width: 30%;
+	background: #fff;
+	padding: 10px;
+}
+.slidermain{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.small-txt-tstimonial{
+	font-size: 15px;
+	color: #596670;
+
+}
+.slide-box{
+	padding: 20px !important;
+	box-shadow: 0px 15px 35px 0px rgba(175, 190, 223, 0.30);
+	border-radius: 10px;
+	font-weight: 400;
+	min-height: 200px;
+	margin-bottom: 20px;
+	width: 90% !important;
+}
+.testimonial-bg{
+	padding: 30px 0px 50px 0px;
+}
+.testimonial-txt{
+	font-size: 14px;
+}
+.name-txt{
+	font-size: 16px;
+	padding-top: 20px;
+}
+.testimonial-main-slider{
+	padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.populer-courses-main {
+	display: none;
+	/* Add your inner-banner-content styles here */
+}
+.populer-courses-main.active {
+	display: flex; /* Change display property to flex to show only the active banner */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive styles  */
+@media (max-width:1450px) {
+	.space-banner-inner {
+		padding: 80px 0px 20px 0px;
+		width: 100%;
+	}
+	.banner-controller {
+    display: flex;
+    margin-bottom: 50px;
+	}
+}
+@media (max-width:1250px) {
+	.nav-inner .nav-items li {
+    padding: 0px 10px;
+	}
+	.logo {
+    width: 120px;
+	}
+	.btn-contact {
+    padding: 8px 16px;
+    margin-left: 15px;
+	}
+	.active-nav {
+    padding: 8px 34px;
+	}
+	.client-main-heading {
+    font-size: 32px;
+	}	
+	.number-txt {
+	font-size: 36px;
+	padding-top: 13px;
+	}
+	.why-main {
+    width: 100%;
+    display: flex;
+    padding: 80px 0px 60px 0px;
+	}
+}
+@media (max-width:1150px) {
+	.box-joint-left {
+		width: 80%;
+	}
+	.box-joint-right {
+    width: 82%;
+	}
+	.join-section {
+    padding: 80px 0px 20px 0px;
+	 }
+}
+@media (max-width:991px) {
+	.menulogo{
+		display: block;
+	}
+	.right-nav{
+		display: none;
+	}
+	.banner-right{
+		display: none;
+	}
+	.space-banner-inner .inner-banner-content {
+    width: 100%;
+	}
+	.client-main-heading {
+    font-size: 24px;
+	}
+	.clients {
+    width: 100%;
+    display: block;
+    padding: 25px 0px;
+	}
+
+	.left-client-box {
+    width: 100%;
+	}
+	.client-img {
+    width: 250px;
+		margin: auto;
+		display: table;
+		margin-bottom: 30px;
+	}
+	.common-box {
+    padding: 17px;
+    width: 45%;
+		margin-bottom: 25px;
+	}
+	.boxes-clients {
+		flex-wrap: wrap;
+	}
+	.client-box-main {
+    padding-bottom: 20px;
+	}
+	.why-main {
+    display: block;
+    padding: 40px 0px 60px 0px;
+	}
+	.why-inner-left {
+    width: 100%;
+	}
+	.img-why {
+    width: 180px;
+		margin: auto;
+		display: table;
+		margin-bottom: 30px;
+	}
+	.why-main-text {
+    color: #fff;
+    font-size: 32px;
+    padding-bottom: 6px;
+	}	
+	.why-inner-right {
+    width: 100%;
+	}
+	.sub-why {
+    font-size: 15px;
+	}
+	.main-text-join {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 35px;
+	}
+	.box-joint-left {
+    width: 100%;
+	}
+	.box-joint-right {
+    width: 100%;
+	}
+	.right-screen {
+    display: none;
+	}
+	.col-app-details {
+    width: 100%;
+	}
+	.get-app {
+    background: linear-gradient(96deg, #1A94FF 1.04%, #33C7CA 96.78%);
+    padding: 50px 20px;
+	}
+	.message-main {
+    display: block;
+	}
+	.message-founder-left {
+    width: 100%;
+	}
+	.message {
+    padding: 40px 0px;
+	}
+	.founder-image {
+    width: 200px;
+    display: table;
+	}
+	.message-founder-right {
+    width: 100%;
+	}
+	.call-back-left {
+  display: none;
+	}
+	.call-back-right {
+    width: 100%;
+	}
+	.populer-courses-main.active {
+    flex-wrap: wrap;
+}
+.populer-box {
+	width: 45%;
+	margin-bottom: 30px;
+	}
+	.footer-main {
+    flex-wrap: wrap;
+	}
+}
+@media (max-width:750px) {
+	.footer-main {
+    width: 100%;
+}
+.footer-box {
+	width: 100%;
+	margin-bottom: 30px;
+}
+}
+@media (max-width:650px) {
+	.course-details {
+    font-size: 15px;
+	}
+	.image-course {
+    border-radius: 10px;
+    margin-bottom: 15px;
+	}
+	.left-join img{
+		display: none;
+	}
+	.join-section {
+    padding: 45px 0px 20px 0px;
+	}
+	.right-client-box {
+    width: 100%;
+	}
+	.banner-controller {
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+	}
+}
+@media (max-width:550px) {
+	.box-form {
+		padding: 32px 26px 32px 26px;
+	}
+	.form-half {
+    width: 100%;
+    margin-bottom: 20px;
+	}
+	.pop-txt {
+    padding-bottom: 20px;
+    font-size: 22px;
+	}
+	.popular-course i {
+    font-size: 15px;
+	}
+	.callback {
+    padding: 50px 0px;
+		margin-bottom: 50px;
+	}
+	.btn-submit {
+    margin-top: 47px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
